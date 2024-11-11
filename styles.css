@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #61122f;
+  color: #fff;
+  font-size: 16px;
+}
+#header-nav {
+	background-color: #f6b319;
+	height: 50px;
+	border: 2px solid black;
+}
+h1 {
+	color: black;
+	font-weight: 800;
+	position: relative;
+	top: -5px;
+}
+h2 {
+	/**text-align: center;**/
+	font-weight: 800;
+	margin-top: 25px;
+}
+#chick, #beef, #sush {
+	height: 50px;
+}
+.boxe {
+	margin: 25px 0px 15px 0px;
+	background-color: brown;
+	/*Remove this with media queries*/
+	margin-left: 8%;
+}
+.banner {
+	margin-left: 42%;
+	font-weight: 800;
+}
+.pr {
+  margin-right: 5px;
+}
+/******************************BUTTON STYLING******************************************/
+.btn {
+  top: -40px;
+  left: 265%;
+  width: 70px;
+  margin-left: 0px;
+}
+.otbtn {
+  padding-left: 50px;
+}
+.otbt {
+  padding-left: 60px;
+}
+.otb {
+  padding-left: 57px;
+}
+#obtn {
+  border: 3px solid blue;
+}
+#obtn li {
+  background-color: orange;
+  width: 495px;
+}
+#obtn button {
+margin-left: 160px;
+}
+a {
+text-decoration: none;
+}
+#obtn li:hover {
+  background-color: whitesmoke;
+}
+/*******************************MEDIA-QURIES*******************************************/
+@media (min-width: 768px) {
+  .boxe {
+    width: 25%; 
+  }
+  .pr {
+    margin-left: 6%;
+  }
+}
